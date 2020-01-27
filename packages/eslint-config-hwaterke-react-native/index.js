@@ -35,6 +35,10 @@ module.exports = {
   rules: {
     curly: ['error', 'all'],
     'linebreak-style': ['error', 'unix'],
+    eqeqeq: 'error',
+    'prefer-const': 'error',
+    'no-console': 'error',
+    '@typescript-eslint/explicit-function-return-type': 'off',
     'react/default-props-match-prop-types': 'error',
     'react/no-direct-mutation-state': 'error',
     'react/no-typos': 'warn',
