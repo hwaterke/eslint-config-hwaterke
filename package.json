@@ -12,6 +12,11 @@
     "lint-staged": "^10.0.2",
     "prettier": "^1.19.1"
   },
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged"
